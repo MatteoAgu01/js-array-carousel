@@ -61,7 +61,7 @@
 	width: 100%;
 	object-fit: cover;
 	object-position: center;
-	scale: 99%;
+	scale: 98%;
 }
 
 .r-active{
@@ -73,4 +73,50 @@
 
 .op{
 	opacity: 0.25;
+}
+
+@media screen and (min-width:581px) and (max-width:992px){
+	.carousel{
+		width: 60vw;
+		height: 50vw;
+	}
+
+	.carousel-rigth{
+		height: 50vw;
+		width: 15vw;
+	}
+
+	.r-front> div{
+		height: 10vw;
+	}
+}
+
+@media screen and (max-width:580px){
+	.carousel{
+		height: 50vw;
+		width: 80vw;
+	}
+
+	.carousel-rigth{
+		height: 50vw;
+		width: 20vw;
+	}
+
+	.r-front> div{
+		height: 10vw;
+		overflow: hidden;
+	}
+
+	.my-top-btn,
+	.my-bot-btn{
+		padding: 0px;
+		font-size: 0.5rem;
+		width: 30px;
+		height: 30px;
+		border-radius: 100%;
+	}
+
+	i{
+		padding: 0;
+	}
 }

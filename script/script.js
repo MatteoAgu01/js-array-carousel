@@ -50,9 +50,11 @@ function carousel(direction){
 		focusImage.carousel.getElementsByTagName("img")[focusImage.currentPosition].setAttribute("class", "my-active");
 
 		focusImage.rCarousel.getElementsByTagName("div")[focusImage.lastPosition].setAttribute("class", "op");
-		focusImage.rCarousel.getElementsByTagName("div")[focusImage.currentPosition].setAttribute("class", "r-active");
+		focusImage.rCarousel.getElementsByTagName("div")[focusImage.currentPosition].setAttribute("class", "r-active");               
 	}
 	else
 		console.log("Argomento incorrect");
 }
+
+
  
